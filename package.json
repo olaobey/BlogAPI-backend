@@ -13,7 +13,7 @@
   "author": "Ajeigbe Olaoluwa Samuel <olaobey15@gmail.com>",
   "scripts": {
     "prebuild": "rimraf build",
-    "build": "yarn run prebuild && npx tsc",
+    "build": "npx tsc",
     "start": "node build/server.js",
     "start:dev": "ts-node server.ts",
     "dev": "yarn run stop && yarn run build && pm2 start -f build/server.js --attach",
