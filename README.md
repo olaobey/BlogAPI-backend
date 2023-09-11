@@ -25,7 +25,7 @@ following environment variables:
 2. Install the required dependencies with npm install
 3. In the root directory, create a **`.env`** file based on the **`.env.example`** file, and update the values as needed with the following variables
 
-- DATABASE_URL= **`cloud postgres`**
+- DATABASE_URL= **`postgresql://postgres:<password>@db.uofmuidgoffilmzlwgcu.supabase.co:5432/postgres`**
 - NODE_ENV= **`either development or production`**
 4. Run **`yarn install`** to install the required packages.
 5. The API server will start running on http://localhost:5000. You can now send HTTP requests to the API endpoints.
@@ -35,7 +35,7 @@ following environment variables:
 ```bash
 ## Running
 
-To start the API, **`yarn run dev`**.
+To start the API: yarn run dev.
 ```
 
 
