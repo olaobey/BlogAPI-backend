@@ -1,8 +1,7 @@
 {
   "name": "BlogAPI-backend",
   "version": "1.0.0",
-  "main": "build/server.js",
-  "types": "build/server.d.ts",
+  "main": "build/server",
   "engines": {
     "node": ">=14.0.0"
   },
