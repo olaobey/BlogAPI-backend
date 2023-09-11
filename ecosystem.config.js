@@ -2,8 +2,7 @@ module.exports  = {
   apps: [
     {
       name: "BlogAPI-backend",
-      script: "build server.js",
-      args: "server.ts",
+      script: "dist/server.js",
       instances: "max", 
       exec_mode: "cluster",
       autorestart: true,
@@ -14,6 +13,7 @@ module.exports  = {
       },
       env_development: {
         NODE_ENV: 'development',
+        PORT: 5000, 
       },
     },
   ],
