@@ -4,7 +4,7 @@
       "moduleResolution": "node",
       "module": "CommonJS",
       "declaration": true,
-      "types": ["node", "express"],
+      "types": ["node"],
       "typeRoots": ["./node_modules/@types"],
       "allowSyntheticDefaultImports": true,
       "experimentalDecorators": true,
