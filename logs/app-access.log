@@ -123,3 +123,6 @@
 ::1 - - [08/Sep/2023:05:15:17 +0000] "POST /api/v1/comment/deleteComment/b4939739-0385-4e05-97ff-fd0ef71c0a2e HTTP/1.1" 404 205 "-" "PostmanRuntime/7.32.3"
 ::1 - - [08/Sep/2023:05:16:23 +0000] "DELETE /api/v1/comment/deleteComment/b4939739-0385-4e05-97ff-fd0ef71c0a2e HTTP/1.1" 200 386 "-" "PostmanRuntime/7.32.3"
 ::1 - - [08/Sep/2023:05:25:53 +0000] "DELETE /api/v1/category/deleteCategory/186433e4-9c8e-401d-a18e-42c6f65b2ced HTTP/1.1" 200 328 "-" "PostmanRuntime/7.32.3"
+::1 - - [11/Sep/2023:13:27:46 +0000] "PUT /api/v1/blog/likeBlog/cf5d0c21-ae8a-427c-96a2-275a82f81edb HTTP/1.1" 200 431 "-" "PostmanRuntime/7.32.3"
+::1 - - [11/Sep/2023:13:38:03 +0000] "DELETE /api/v1/comment/deleteComment/ebb109c0-918a-4ce8-8af4-dc2a06b239e7 HTTP/1.1" 200 307 "-" "PostmanRuntime/7.32.3"
+::1 - - [11/Sep/2023:13:38:10 +0000] "DELETE /api/v1/comment/deleteComment/ebb109c0-918a-4ce8-8af4-dc2a06b239e7 HTTP/1.1" - - "-" "PostmanRuntime/7.32.3"

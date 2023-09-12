@@ -8,7 +8,6 @@ import {updateBlogDto} from '../../shared/dto/createBlog.dto'
 
 
 export class BlogController {
-  [x: string]: any;
   private static blogService: BlogService = new BlogService();
 
   static async createBlogPost(req: Request, res: Response) {
